@@ -48,7 +48,6 @@ PYTHON WEB SCRAPING/
 ├── main.py
 └── README.md
 
-
 ---
 
 ## 3. File Description
