@@ -25,8 +25,6 @@ The project also handles **website loading problems** and reports errors properl
 ---
 
 ## 2. Project Structure
-
-
 PYTHON WEB SCRAPING/
 │
 ├── output/
@@ -78,186 +76,100 @@ Example helper methods:
 ```python
 safe_text()
 safe_attr()
-
 These methods prevent crashes when page elements are missing.
-
 scrapers/target_scraper.py
-
 Scraper for the Target website.
-
 Features:
-
-Handles unavailable Target product pages
-
-Extracts related sub-product links if needed
-
-Removes duplicate products
-
-Extracts product details
-
+•	Handles unavailable Target product pages
+•	Extracts related sub-product links if needed
+•	Removes duplicate products
+•	Extracts product details
 scrapers/walmart_scraper.py
-
 Scraper for the Walmart website.
-
 Features:
-
-Extracts product data
-
-Detects blocked pages
-
-Detects timeouts
-
-Detects redirects
-
-Handles loading issues
-
+•	Extracts product data
+•	Detects blocked pages
+•	Detects timeouts
+•	Detects redirects
+•	Handles loading issues
 scrapers/foodcity_scraper.py
-
 Scraper for the Food City website.
-
 Features:
-
-Extracts product data
-
-Detects website loading problems
-
-Detects access issues
-
+•	Extracts product data
+•	Detects website loading problems
+•	Detects access issues
 utils/helpers.py
-
 Contains helper functions such as:
-
 clean_text()
-
 Used for cleaning and formatting extracted data.
-
 output/
-
 Stores final scraped files:
-
-products.json
-
-products.csv
-
+•	products.json
+•	products.csv
+________________________________________
 4. Libraries Used
 Playwright
-
 Used for:
-
-Browser automation
-
-Handling dynamic page loading
-
-Interacting with JavaScript-based websites
-
+•	Browser automation
+•	Handling dynamic page loading
+•	Interacting with JavaScript-based websites
 re
-
 Used for:
-
-Regular expressions
-
-Text matching
-
-Data extraction
-
+•	Regular expressions
+•	Text matching
+•	Data extraction
 json
-
 Used to:
-
-Save output data in JSON format
-
+•	Save output data in JSON format
 csv
-
 Used to:
-
-Save output data in CSV format
-
+•	Save output data in CSV format
 os
-
 Used for:
-
-File handling
-
-Folder creation
-
-Path management
-
+•	File handling
+•	Folder creation
+•	Path management
+________________________________________
 5. How the Problem Was Solved
-
 Some websites load product information dynamically, so traditional scraping methods using requests + BeautifulSoup are not sufficient.
-
 Solution
-
-Use Playwright to open real browser pages
-
-Wait for page content to fully load
-
-Extract product information using CSS selectors
-
-Use safe helper methods to avoid crashes when elements are missing
-
-Handle unavailable pages
-
-Retry by collecting valid sub-product links
-
-Remove duplicate product results
-
-Save results in structured output files
-
+•	Use Playwright to open real browser pages
+•	Wait for page content to fully load
+•	Extract product information using CSS selectors
+•	Use safe helper methods to avoid crashes when elements are missing
+•	Handle unavailable pages
+•	Retry by collecting valid sub-product links
+•	Remove duplicate product results
+•	Save results in structured output files
+________________________________________
 6. How Website Issues Are Detected
-
 If a website does not load properly or has issues, the scraper detects it in several ways.
-
 Timeout Detection
-
 If page loading takes too long, Playwright throws a timeout error.
-
 Exception Detection
-
 If browser or page actions fail:
-
-Exceptions are caught
-
-Errors are logged
-
+•	Exceptions are caught
+•	Errors are logged
 Content-Based Detection
-
 The scraper checks page text for messages such as:
-
-page not found
-
-item not available
-
-access denied
-
-service unavailable
-
-verify your identity
-
+•	page not found
+•	item not available
+•	access denied
+•	service unavailable
+•	verify your identity
 Invalid Page or Redirect Detection
-
 If the final loaded URL is unexpected, the scraper reports it as an error.
-
 Missing Required Product Data
-
 If important data like product title is missing:
-
-The scraper marks the result as failed.
-
+•	The scraper marks the result as failed.
+________________________________________
 7. How Website Issues Are Handled
-
 The scraper handles website problems safely using:
-
-try / except blocks
-
-Timeout detection
-
-Page loading error detection
-
-Structured error responses
-
+•	try / except blocks
+•	Timeout detection
+•	Page loading error detection
+•	Structured error responses
 Instead of crashing, the scraper returns a failed result object.
-
 Example Failed Result
 {
   "website": "Walmart",
@@ -272,74 +184,47 @@ Example Failed Result
   "status": "failed",
   "error": "Page load timeout"
 }
-
 This makes the scraper:
-
-Stable
-
-Easier to debug
-
-Reliable for batch scraping
-
+•	Stable
+•	Easier to debug
+•	Reliable for batch scraping
+________________________________________
 8. How to Run the Project
 Step 1 — Install Python
-
 Install Python 3.9 or higher.
-
 Step 2 — Install Required Package
 pip install playwright
 Step 3 — Install Browser for Playwright
 playwright install
 Step 4 — Run the Project
 python main.py
+________________________________________
 9. Output
-
 After running the scraper, the output files will be created in the output/ folder.
-
 Generated Files
-
-output/products.json
-
-output/products.csv
-
+•	output/products.json
+•	output/products.csv
 JSON File
-
-Data grouped by website
-
+•	Data grouped by website
 CSV File
-
-All scraped products in tabular format
-
+•	All scraped products in tabular format
+________________________________________
 10. Notes
-
-Some websites may block scraping
-
-Some pages may load slowly
-
-Some product pages may not contain all fields
-
+•	Some websites may block scraping
+•	Some pages may load slowly
+•	Some product pages may not contain all fields
 In these cases:
-
-The scraper reports the issue in the "error" field.
-
+•	The scraper reports the issue in the "error" field.
 The Target scraper may collect product data from related sub-pages if the main page is unavailable.
-
+________________________________________
 11. Summary
-
 This project is a multi-site product scraper built with Python and Playwright.
-
 Features
-
-Scrapes product data from Target, Walmart, and Food City
-
-Handles dynamic websites
-
-Detects loading issues
-
-Safely handles errors
-
-Removes duplicate products
-
-Saves clean JSON and CSV outputs
-
+•	Scrapes product data from Target, Walmart, and Food City
+•	Handles dynamic websites
+•	Detects loading issues
+•	Safely handles errors
+•	Removes duplicate products
+•	Saves clean JSON and CSV outputs
 The project is designed to be robust, scalable, and easy to debug.
+
