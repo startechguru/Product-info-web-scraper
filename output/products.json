@@ -1,0 +1,222 @@
+{
+    "foodcity": [
+        {
+            "website": "FoodCity",
+            "url": "https://foodcityships.com/p/3085/Noxzema-Deep-Original-Classic-Clean-Cleansing-Cream--12-oz",
+            "product_name": "",
+            "brand": "",
+            "size": "",
+            "price": "",
+            "description": "",
+            "ingredients": "",
+            "image_url": "",
+            "status": "failed",
+            "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://foodcityships.com/p/3085/Noxzema-Deep-Original-Classic-Clean-Cleansing-Cream--12-oz\nCall log:\n  - navigating to \"https://foodcityships.com/p/3085/Noxzema-Deep-Original-Classic-Clean-Cleansing-Cream--12-oz\", waiting until \"domcontentloaded\"\n"
+        }
+    ],
+    "target": [
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/4pc-disco-hearts-content-creation-kit-roller-rabbit-x-target/-/A-94817387",
+            "product_name": "4pc Disco Hearts Content Creation Kit - Roller Rabbit x Target",
+            "brand": "Electronics New Arrivals",
+            "size": {},
+            "price": "$30.00",
+            "description": "This 4-Piece Content Creation Kit from Roller Rabbit x Target makes it easy to livestream or record videos right at home. This kit includes a clip-on ring light, mini microphone, phone suction mount and USB-C dongle, giving you everything you need to get your content creator dreams started on the right track. Beloved for their colorful prints and uplifting styles, Roller Rabbit adds more joy to any journey. Now, they’re joining Target to celebrate travel, friendship and togetherness in this limited-edition collection designed to inspire your ultimate spring adventure.",
+            "ingredients": "",
+            "image_url": "https://target.scene7.com/is/content/Target/GUEST_552d6437-373e-4a88-b2e6-0119853becf6",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/apple-macbook-neo-a18-pro-2026-laptop/-/A-95288385",
+            "product_name": "Apple MacBook Neo (A18 Pro, 2026) Laptop - 256GB, Silver",
+            "brand": "Apple",
+            "size": {
+                "Color": "Silver",
+                "Storage Capacity": "256GB"
+            },
+            "price": "$599.99",
+            "description": "Ready for whatever your day brings, MacBook Neo flies through everyday tasks and apps. Choose from four stunning colors in a durable aluminum design. With a brilliant 13-inch Liquid Retina display, the A18 Pro chip built for AI and Apple Intelligence, and up to 16 hours of battery life, it’s an amazing Mac at a surprising price. What's in the Box 13‐inch MacBook Neo USB‐C Charging Cable 20W USB‑C Power Adapter ¹Screen size is measured diagonally. The display on the 13-inch MacBook Neo has rounded corners at the top. When measured as a standard rectangular shape, the screens are 13.0 inches diagonally (actual viewable area is less). ²Apple Intelligence is available in beta. Some features may not be available in all regions or languages. For feature and language availability and system requirements, see support.apple.com/121115. ³Testing conducted by Apple in January 2026 using preproduction MacBook Neo systems with Apple A18 Pro, 6-core CPU, 5-core GPU, 8GB of unified memory, and 256GB SSD. Wireless web battery life tested by browsing 25 popular websites while connected to Wi-Fi. Video streaming battery life tested with 1080p content in Safari while connected to Wi-Fi. All systems tested with display brightness set to 8 clicks from bottom. Battery life varies by use and configuration. See apple.com/batteries for more information. ⁴FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. ⁵Available on Mac computers with Apple silicon and Intel-based Mac computers with a T2 Security Chip. Requires that your iPhone and Mac are signed in with the same Apple Account using two-factor authentication, your iPhone and Mac are near each other and have Bluetooth and Wi-Fi turned on, and your Mac is not using AirPlay or Sidecar. Some iPhone features (e.g., camera and microphone) are not compatible with iPhone Mirroring.",
+            "ingredients": "",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_9fe9f82b-4a57-4619-976c-bc028151897c?qlt=65&fmt=webp&hei=377&wid=670&fit=crop%2C1",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/easter-bunny-chocolate-candy-coins-1-7oz-7ct-favorite-day-8482/-/A-94712132",
+            "product_name": "Easter Bunny Chocolate Candy Coins - 1.7oz/7ct - Favorite Day™",
+            "brand": "Chocolate Candy",
+            "size": {},
+            "price": "$1.50",
+            "description": "",
+            "ingredients": "Milk Chocolate (Sugar, Cocoa Butter, Chocolate Liquor, Whole Milk Powder, Dry Whole Milk, Soy Lecithin, Natural Flavor).",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_aca5eb26-b552-4417-bb7e-c8e213ba880b?qlt=65&fmt=webp&hei=160&wid=160",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/easter-plastic-berry-basket-spritz/-/A-94626616",
+            "product_name": "Easter Plastic Berry Basket Blue - Spritz™",
+            "brand": "Novelty Gifts",
+            "size": {
+                "Color": "Blue"
+            },
+            "price": "$1.00",
+            "description": "Celebrate Easter with the Easter Plastic Berry Basket from Spritz™. This seasonal basket is perfect for all your Easter goodies. Made from durable plastic material, it’s designed to last through many celebrations. The square shape and convenient handle make it easy to carry around, whether you're collecting eggs or filling it with treats. With dimensions of 4.5 inches (H) x 6.3 inches (W) x 6.3 inches (D), it’s just the right size for all your Easter needs. Enjoy the festive season with this handy and cheerful basket. Spritz™: Pops of joy that make the moment™.",
+            "ingredients": "",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_b0698feb-919e-4aec-ae0e-9632f1d0a95c?qlt=65&fmt=webp&hei=377&wid=670&fit=crop%2C1",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/hj/-/A-95279869",
+            "product_name": "Carpe Women's 100hr Sweat & Odor Control Underarm Deodorant - Amber Glow - 1.76oz",
+            "brand": "Antiperspirant",
+            "size": {
+                "Scent": "Amber Glow"
+            },
+            "price": "$14.99",
+            "description": "Carpe Underarm Antiperspirant Deodorant provides powerful sweat and odor control without compromise. With Carpe's 100 hour sweat and odor protection and a gentle, quick-drying lotion formula, you can go through your day confident that you're protected from embarrassing underarm sweat and odor. Plus, enjoy the luxury of premium fragrance and a smooth, quick-drying formula that nourishes skin and doesn't drag or irritate. To use: Apply a thin layer of Carpe to clean, completely dry underarms at night and again in the morning.",
+            "ingredients": "ingredients controls sweat, prevents odor, and nourishes skin. 100 HOUR SWEAT AND ODOR PROTECTION: Carpe is clinically tested to control sweat and odor for up to 100 hours for all-day confidence when used as directed. ACTIVE LOTION FORMULA: Carpe antiperspirant is a quick-drying lotion that goes on clear and continuously works to absorb excess sweat and fight odor-causing bacteria without causing discomfort. SKINCARE & SWEATCARE IN ONE: Carpe is formulated with nourishing ingredients and is clinically tested to help repair the skin barrier. Our PhD developed and dermatologist tested antiperspirant is designed to fight sweat and odor without compromising on comfort. PREMIUM SCENTS: Our products are crafted from premium ingredients globally sourced by world-class fragrance experts. Enjoy the velvety warmth of pink pepper, oriental rose, and frankincense in Amber Glow. SKIN-FRIENDLY INGREDIENTS: Carpe is formulated without parabens, phthalates, baking soda, dyes, formaldehydes, and talc.",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_6ffb1682-bafa-4c0f-b864-92f0ca65c424?qlt=65&fmt=webp&hei=160&wid=160",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/lucky-charms-marshmallow-pouch-4oz/-/A-85777610",
+            "product_name": "Lucky Charms Marshmallow Pouch - 4oz",
+            "brand": "Marshmallows",
+            "size": {},
+            "price": "$5.29",
+            "description": "",
+            "ingredients": "Sugar, Corn Starch, Corn Syrup, Dextrose, Gelatin, Red 40, Yellow 5 & 6, Blue 1, Artificial Flavor.",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_93a24089-b1fd-40c3-b2d5-6928a39da29b?qlt=65&fmt=webp&hei=377&wid=670&fit=crop%2C1",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/nerds-easter-rope-0-92oz/-/A-81256917",
+            "product_name": "Nerds Easter Rope Candy - 0.92oz",
+            "brand": "Gummy & Chewy Candy",
+            "size": {},
+            "price": "$1.49",
+            "description": "",
+            "ingredients": "Corn Syrup, Sugar, Dextrose, Gelatin, Contains 2% Or Less Of Malic Acid (Dl-Malic Acid), Glycerin, Citric Acid, Gum Arabic, Carnauba Wax, Color Added, Natural Flavors, Yellow 5 Lake, Red 40, Red 40 Lake, Yellow 5, Blue 1.",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_4063dd27-c6b1-40d3-ae81-f424bed7068d?qlt=65&fmt=webp&hei=160&wid=160",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/pok-233-mon-trading-card-game-mega-evolution-ascended-heroes-premium-poster-collection-mega-gardevoir/-/A-95093982",
+            "product_name": "Pokémon Trading Card Game: Mega Evolution Ascended Heroes Premium Poster Collection Mega Gardevoir",
+            "brand": "Trading Cards",
+            "size": {},
+            "price": "$54.99",
+            "description": "Decorate Your Space with Mega Lucario ex or Mega Gardevoir ex! With strong attacks and big HP, Mega Lucario ex and Mega Gardevoir ex break through boundaries in battle! Team up with one of these powerful Mega Evolution Pokémon ex as a full-art foil promo card, then find even more Pokémon inside a stack of 10 booster packs from Mega Evolution—Ascended Heroes. You’ll also get a large poster showing off Mega Lucario or Mega Gardevoir and other Pokémon featured in this special expansion.",
+            "ingredients": "",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_3bc977fd-d051-4fb4-be35-b50e97140763?qlt=65&fmt=webp&hei=160&wid=160",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/reese-39-s-pieces-peanut-butter-easter-candy-gift-bag-2-2oz/-/A-81306596",
+            "product_name": "Reese's Pieces Peanut Butter Easter Candy Gift Bag - 2.2oz",
+            "brand": "Chocolate Candy",
+            "size": {},
+            "price": "$1.99",
+            "description": "",
+            "ingredients": "Sugar, Partially Defatted Peanuts, Hydrogenated Vegetable Oil (Palm Kernel Oil, Soybean Oil), Corn Syrup Solids, Contains 2% Or Less Of: Palm Kernel Oil, Corn Syrup, Salt, Artificial Color (Including Yellow 6 Lake, Yellow 5 Lake, Red 40 Lake, Blue 1 Lake), Modified Cornstarch, Confectioner's Glaze, Lecithin (Soy), Vanillin (Artificial Flavor), Carnauba Wax",
+            "image_url": "https://target.scene7.com/is/image/Target/GUEST_cdf2a05d-2ea2-4ec6-b93c-5013655f75da?qlt=65&fmt=webp&hei=160&wid=160",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/women-s-drop-waist-poplin-midi-skirt-a-new-day/-/A-94921516",
+            "product_name": "Women's Resort Luxe Linen Drop Waist Midi Skirt - A New Day™ Blue XS",
+            "brand": "Skirts",
+            "size": {
+                "Color": "Blue",
+                "Size": "XS"
+            },
+            "price": "$35.00",
+            "description": "",
+            "ingredients": "",
+            "image_url": "https://target.scene7.com/is/content/Target/GUEST_cf1768a7-0aab-4d01-9db2-cfb42f410161",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/women-s-linen-maxi-full-skirt-wild-fable/-/A-94987026",
+            "product_name": "Women's Linen Maxi Full Skirt - Wild Fable™ Cream XXS",
+            "brand": "Skirts",
+            "size": {
+                "Color": "Cream",
+                "Size": "XXS"
+            },
+            "price": "$30.00",
+            "description": "",
+            "ingredients": "",
+            "image_url": "https://target.scene7.com/is/content/Target/GUEST_cf1768a7-0aab-4d01-9db2-cfb42f410161",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/women-s-low-rise-baggy-leg-linen-pull-on-pants-wild-fable/-/A-94987795",
+            "product_name": "Women's Low-Rise Baggy Leg Linen Pull-On Pants - Wild Fable™ Berry Red XXS",
+            "brand": "Pants",
+            "size": {
+                "Color": "Berry Red",
+                "Size": "XXS"
+            },
+            "price": "$30.00",
+            "description": "",
+            "ingredients": "",
+            "image_url": "https://edge.curalate.com/v1/img/FIKGIi99C4KLSGJvKm9sGSjiq3rxqerkXgbB50I_5Lg=/sc/400x400?compression=0.65&fit=crop",
+            "status": "success",
+            "error": ""
+        },
+        {
+            "website": "Target",
+            "url": "https://www.target.com/p/women-s-wide-straps-button-front-mini-empire-waist-dress-wild-fable/-/A-94987881",
+            "product_name": "Women's Button-Front Mini Empire Waist Dress - Wild Fable™ Pink Floral XXS",
+            "brand": "Dresses",
+            "size": {
+                "Color": "Pink Floral",
+                "Size": "XXS"
+            },
+            "price": "$35.00",
+            "description": "",
+            "ingredients": "",
+            "image_url": "https://edge.curalate.com/v1/img/rLoIA2rd9jYd8dvrOMWYic3tl6pOcrCP61sOz74foO0=/sc/400x400?compression=0.65&fit=crop",
+            "status": "success",
+            "error": ""
+        }
+    ],
+    "walmart": [
+        {
+            "website": "Walmart",
+            "url": "https://www.walmart.com/ip/Noxzema-Classic-Clean-Original-Deep-Cleansing-Cream-12-oz/10294073",
+            "product_name": "",
+            "brand": "",
+            "size": "",
+            "price": "",
+            "description": "",
+            "ingredients": "",
+            "image_url": "",
+            "status": "failed",
+            "error": "Website issue detected: robot or human"
+        }
+    ]
+}
